@@ -1,0 +1,24 @@
+What is HTML?
+
+HTML stands for HyperText Markup Language.
+It is the standard markup language for creating web pages.
+
+---
+
+Features of HTML
+
+1. We can create text, images, and videos on web pages.
+2. It is not dependent on any platform.
+
+---
+
+MIME
+
+- MIME stands for Multipurpose Internet Mail Extensions.
+- MIME takes care of transferring different kinds of data through email services. 
+
+---
+
+Void elements
+
+Void elements are HTML elements that have only opening tags.
