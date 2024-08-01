@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Task</title>
+</head>
+<body>
+    <h1>Form</h1>
+    <form>
+        <div>
+            <label>Name</label>
+            <input type="text">
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="email">
+        </div>
+        <div>
+            <label for="password">Password</label>
+            <input type="password">
+        </div>
+        <div>
+            <label for="gender">Gender</label>
+            <div>
+                <input id="male" type="radio" name="gender">
+                <label for="male">Male</label>
+            </div>
+            <div>
+                <input id="female" type="radio" name="gender">
+                <label for="female">Female</label>
+            </div>
+            <div>
+                <input type="radio" id="other" name="gender">
+                <label for="other">Other</label>
+            </div>
+        </div>
+        <div>
+            <label>Hobbies</label>
+            <div>
+                <input type="checkbox">
+                <label>Coding</label>
+            </div>
+            <div>
+                <input type="checkbox">
+                <label>Sporting</label>
+            </div>
+            <div>
+                <input type="checkbox">
+                <label>Writing</label>
+            </div>
+        </div>
+        <label>Country</label>
+        <select>
+            <optgroup label="Country">
+                <option>India</option>
+                <option>USA</option>
+                <option>UK</option>
+                <option>Pakistan</option>
+                <option>Sri Lanka</option>
+           </optgroup>
+        </select>
+        <div>
+            <input type="button" value="Submit">
+        </div>
+    </form>
+</body>
+</html>
