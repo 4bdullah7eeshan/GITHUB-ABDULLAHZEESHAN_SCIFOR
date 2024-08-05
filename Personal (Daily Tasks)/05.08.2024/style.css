@@ -1,0 +1,14 @@
+:root {
+    --bg-image: url('https://cdn.pixabay.com/photo/2016/03/26/22/44/sky-1281662_1280.jpg');
+    --border-color: pink;
+}
+
+html {
+    background-image: var(--bg-image);
+}
+
+h1, h2, p {
+    color: whitesmoke;
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+}
