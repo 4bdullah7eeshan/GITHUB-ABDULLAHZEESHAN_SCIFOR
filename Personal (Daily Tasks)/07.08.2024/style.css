@@ -1,0 +1,15 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1, h2 {
+    text-shadow: 1px 1px red;
+    text-align: center;
+}
+
+p {
+    overflow: scroll;
+    text-overflow: ellipsis;
+    text-shadow: 5px 5px #558ABB;
+}
+
