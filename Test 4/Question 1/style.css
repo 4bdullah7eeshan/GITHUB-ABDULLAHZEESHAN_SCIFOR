@@ -1,0 +1,33 @@
+:root {
+    --primary-color: lightskyblue; 
+    --secondary-color: #008000; /* Emerald Green */
+    --text-color: darkgrey;
+    --button-padding: 12px 24px;
+    --border-radius: 8px;
+}
+
+h1 {
+    color: var(--primary-color); /* Primary Color */
+}
+
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--secondary-color); /* Secondary Color. Emerald Green */
+}
+
+p {
+    color: var(--text-color); /* Text Color */
+}
+
+button {
+    padding: var(--button-padding);
+    border-radius: var(--border-radius);
+}
+
+body {
+    background-color: black; /* To make above colors look good */
+}
