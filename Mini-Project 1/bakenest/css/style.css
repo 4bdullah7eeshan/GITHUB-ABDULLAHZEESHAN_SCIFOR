@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Meddon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quintessential&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+
+main {
+    background-color: #fffff0;
+}
+
+.pre-footer {
+    background-color: #c6eef3;
+}
+
+footer {
+    background-color: white;
+    color: black;
+}
+
+#carouselExampleSlidesOnly .carousel-item img {
+    object-fit: cover;
+    object-position: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.card-body {
+    background-color: #ffe6be;
+}
+
+.logo {
+    font-family: 'Meddon', cursive;
+}
+
+.nav-item {
+    font-family: 'Quintessential', cursive;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+}
+
+.fuck {
+    font-family: 'League Script', cursive;
+}
+
+/*p {
+    font-family: 'Quintessential', cursive;
+}
+*/
