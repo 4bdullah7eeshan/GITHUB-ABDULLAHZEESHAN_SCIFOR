@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Foundation Grid Layout</title>
+  <link rel="stylesheet" href="./style.css">
+  <!-- Import Foundation  -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.8.1/dist/css/foundation.min.css" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.8.1/dist/js/foundation.min.js" crossorigin="anonymous"></script>
+  <style>
+    html, body {
+        height: 100%;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+    }
+    .content {
+        flex: 1;
+    }
+    footer {
+        background-color: #f8f8f8;
+        padding: 1rem 0;
+    }
+  </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <div class="top-bar">
+        <div class="top-bar-left">
+            <img src="https://cdn.pixabay.com/photo/2014/04/02/10/16/fire-303309_1280.png" alt="logo" style="width: 50px; height: auto;">
+        </div>
+        <div class="top-bar-right">
+          <ul class="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="grid-container content">
+        <div class="grid-x grid-padding-x">
+            <div class="cell">
+                <h1 class="text-center">Welcome</h1>
+                <p class="text-center">Your go-to place for quality services.</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- Content Area -->
+    <main>
+        <div class="grid-container">
+            <div class="grid-x grid-padding-x">
+                <div class="cell">
+                    <h2>About Us</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat omnis odit dicta reprehenderit vero nesciunt inventore ratione aspernatur earum, ea error optio porro et provident saepe eveniet itaque, maxime nihil!</p>
+            </div>
+        </div>
+        
+        <div class="grid-container">
+            <div class="grid-x grid-padding-x small-up-2">
+              <div class="cell">
+                <img src="https://cdn.pixabay.com/photo/2015/01/14/18/41/home-office-599475_1280.jpg" alt="Landscape 1" class="grid-img">
+              </div>
+              <div class="cell">
+                <img src="https://cdn.pixabay.com/photo/2016/03/27/20/12/desk-1284085_1280.jpg" alt="Landscape 2" class="grid-img">
+              </div>
+            </div>
+          </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="grid-container">
+        <div class="grid-x grid-padding-x">
+            <div class="cell">
+                <p>&copy; 2024 Your Company. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
