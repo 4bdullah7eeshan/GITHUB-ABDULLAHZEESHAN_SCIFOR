@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <title>BakeNest</title>
 </head>
-<body>
+<body class="d-flex flex-column min-vh-100">
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
           <!-- Logo on the left -->
@@ -82,7 +82,7 @@
           </div>
         </div>
     </nav>
-    <main>
+    <main class="flex-grow-1">
         <header>
             <h1 class="text-center">Profile</h1>
         </header>
@@ -99,8 +99,8 @@
                         <input type="password" class="form-control" id="password" placeholder="Password">
                     </div>
                     <div class="d-grid gap-2">
-                        <button type="submit" class="btn btn-danger">Login</button>
-                        <button type="button" class="btn btn-secondary">Create Account</button>
+                        <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Login</button>
+                        <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Create Account</button>
                     </div>
                     <div class="text-center mt-3">
                         <p>Forgot Password?</p>
@@ -110,32 +110,38 @@
         </section>
         <section class="container-fluid p-3 pre-footer">
             <div class="row">
-                <div class="col d-flex flex-column justify-content-center align-items-center">
+                <div class="col-12 col-md-6 col-lg d-flex flex-column justify-content-center align-items-center">
                     <h2 class="logo"><i class="bi bi-cake"></i> BakeNest</h2>
                     <p><small>Since 2024</small></p>
                 </div>
-                <div class="col">
-                    <h5>Quick Links</h5>
-                    <p>Home</p>
-                    <p>Shop</p>
-                    <p>About Us</p>
-                    <p>Contact Us</p>
+                <div class="col-12 col-md-3 col-lg d-flex justify-content-center align-items-start">
+                    <div class="text-center">
+                        <h5>Quick Links</h5>
+                        <p >Home</p>
+                        <p>Shop</p>
+                        <p>About Us</p>
+                        <p>Contact Us</p>
+                    </div>
                 </div>
-                <div class="col">
-                    <h5>Help Center</h5>
-                    <p>FAQ</p>
-                    <p>Terms & Conditions</p>
+                <div class="col-12 col-md-3 col-lg d-flex justify-content-center align-items-start">
+                    <div class="text-center">
+                        <h5>Help Center</h5>
+                        <p>FAQ</p>
+                        <p>Terms & Conditions</p>
+                    </div>
                 </div>
-                <div class="col">
-                    <h5>Contact Us</h5>
-                    <p><i class="bi bi-geo-alt-fill"></i> BakeNest, Locality, City, Pin</p>
-                    <p><i class="bi bi-envelope-fill"></i> bakenest.is.not.real@domain.com</p>
-                    <p><i class="bi bi-telephone-fill"></i> +(00) 0000</p>
+                <div class="col-12 col-md-3 col-lg d-flex justify-content-center align-items-start">
+                    <div class="text-center">
+                        <h5>Contact Us</h5>
+                        <p><i class="bi bi-geo-alt-fill"></i> BakeNest, Locality, City, Pin</p>
+                        <p><i class="bi bi-envelope-fill"></i> bakenest.is.not.real@domain.com</p>
+                        <p><i class="bi bi-telephone-fill"></i> +(00) 0000</p>
+                    </div>
                 </div>
             </div>
           </section>
     </main>
-    <footer class="text-center py-3 bg-body-tertiary">
+    <footer class="text-center py-3 bg-body-tertiary mt-auto">
         <div class="container-fluid">
           <p class="mb-0">Copyright &copy; Abdullah Zeeshan.</p>
         </div>
