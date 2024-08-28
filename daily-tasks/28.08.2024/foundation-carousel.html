@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.7.5/dist/css/foundation.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.7.5/dist/js/foundation.min.js"></script>
+
+</head>
+<body>
+    <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
+        <ul class="orbit-container">
+          <li class="is-active orbit-slide">
+            <img src="https://cdn.pixabay.com/photo/2012/11/28/08/54/milky-way-67504_1280.jpg" alt="Image 1">
+          </li>
+          <li class="orbit-slide">
+            <img src="https://cdn.pixabay.com/photo/2016/11/29/12/22/stars-1869447_1280.jpg" alt="Image 2">
+          </li>
+          <li class="orbit-slide">
+            <img src="https://cdn.pixabay.com/photo/2016/11/29/01/40/tree-1866602_1280.jpg" alt="Image 3">
+          </li>
+        </ul>
+      
+        <!-- Bullets -->
+        <nav class="orbit-bullets">
+          <button class="is-active" data-slide="0"></button>
+          <button data-slide="1"></button>
+          <button data-slide="2"></button>
+        </nav>
+      </div>
+    <script>
+        $(document).foundation();
+    </script>      
+</body>
+</html>
