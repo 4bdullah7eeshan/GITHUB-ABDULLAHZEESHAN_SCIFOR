@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test 7</title>
+</head>
+<body>
+    <h1>Test 1</h1>
+    <h2>Compare Two Values</h2>
+    <form id="compareForm">
+        <label for="value1">Enter the first value:</label>
+        <input type="text" id="value1" name="value1"><br><br>
+
+        <label for="value2">Enter the second value:</label>
+        <input type="text" id="value2" name="value2"><br><br>
+
+        <button type="submit">Compare</button>
+    </form>
+
+    <div id="results"></div>
+
+    <script>
+        document.getElementById('compareForm').addEventListener('submit', function(event) {
+            event.preventDefault(); 
+
+            let value1 = document.getElementById('value1').value;
+            let value2 = document.getElementById('value2').value;
+
+            let results = `
+                <p>${value1} == ${value2}: ${value1 == value2}</p>
+                <p>${value1} === ${value2}: ${value1 === value2}</p>
+                <p>${value1} != ${value2}: ${value1 != value2}</p>
+                <p>${value1} !== ${value2}: ${value1 !== value2}</p>
+                <p>${value1} < ${value2}: ${value1 < value2}</p>
+                <p>${value1} > ${value2}: ${value1 > value2}</p>
+                <p>${value1} <= ${value2}: ${value1 <= value2}</p>
+                <p>${value1} >= ${value2}: ${value1 >= value2}</p>
+            `;
+
+            document.getElementById('results').innerHTML = results;
+        });
+    </script>
+</body>
+</html>
