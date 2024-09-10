@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script>    
+    function checkWeather() {
+      let weather = document.getElementById("weatherSelect").value;
+      let tip = "";
+      switch (weather) {
+        case "sunny":
+          tip = "It's a bright day! Wear sunglasses.";
+          break;
+        case "rainy":
+          tip = "It's raining! Don't forget your umbrella.";
+          break;
+        case "cloudy":
+          tip = "It's cloudy! Might want to carry a jacket just in case.";
+          break;
+        case "snowy":
+          tip = "It's snowing! Stay warm and safe.";
+          break;
+        default:
+          tip = "Please select a weather option.";
+      }
+      document.getElementById("tip").innerText = tip;
+    }
+  </script>
+  
+  <title>Weather Guide</title>
+</head>
+<body>
+
+  <h1>Your weather guide!</h1>
+
+  <select id="weatherSelect">
+    <option value="">Select weather</option>
+    <option value="sunny">Sunny</option>
+    <option value="rainy">Rainy</option>
+    <option value="cloudy">Cloudy</option>
+    <option value="snowy">Snowy</option>
+  </select>
+
+  <button onclick="checkWeather()">Get Tip</button>
+
+  <p id="tip"></p>
+</body>
+</html>
