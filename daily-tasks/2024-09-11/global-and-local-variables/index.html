@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script>
+        let globalVar = "I'm a global variable!"; // Global
+
+        function scopeExample() {
+            let localVar = "I'm a local variable!"; // Local
+            
+            console.log(globalVar); 
+            console.log(localVar);  
+        }
+
+        scopeExample();  
+        console.log(globalVar); 
+        console.log(localVar);  
+    </script>
+    <title>Global and Local</title>
+</head>
+<body>
+</body>
+</html>
