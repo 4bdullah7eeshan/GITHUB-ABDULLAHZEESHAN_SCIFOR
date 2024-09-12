@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find Max Number</title>
+</head>
+<body>
+    <h1>Find Max Number</h1>
+    <form id="compareForm">
+        <label for="value1">Enter the first number:</label>
+        <input type="text" id="value1" name="value1"><br><br>
+
+        <label for="value2">Enter the second number:</label>
+        <input type="text" id="value2" name="value2"><br><br>
+
+        <label for="value3">Enter the third number:</label>
+        <input type="text" id="value3" name="value3"><br><br>
+
+        <button type="submit">Compare</button>
+    </form>
+
+    <div id="results"></div>
+
+    <script>
+        document.getElementById('compareForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+
+            let value1 = parseFloat(document.getElementById('value1').value);
+            let value2 = parseFloat(document.getElementById('value2').value);
+            let value3 = parseFloat(document.getElementById('value3').value);
+
+
+            function findGreatest(a, b, c) {
+                if (a > b && a > c) {
+                    return a;
+                } else if (b > a && b > c) {
+                    return b;
+                } else {
+                    return c;
+                }
+            }
+
+            let greatest = findGreatest(value1, value2, value3);
+            document.getElementById('results').innerHTML = `The greatest value is: ${greatest}`;
+        });
+    </script>
+</body>
+</html>
