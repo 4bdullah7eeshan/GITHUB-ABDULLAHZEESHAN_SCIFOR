@@ -5,26 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AJAX Example</title>
 </head>
+<style>
+    #about {
+        background-color: black;
+        color: white;
+    }
+</style>
 <script>
     function f1() {
         var request = new XMLHttpRequest();
-        request.open("GET", "about.txt");
+        request.open("GET", "https://raw.githubusercontent.com/Zeeshan777/GITHUB-ABDULLAHZEESHAN_SCIFOR/main/daily-tasks/2024-09-18/ajax/about.html");
         request.onreadystatechange = function() {
-            if (this.readyState == 4 && this.status == 400) {
-                console.log(this.responseText);
+            if (this.readyState == 4 && this.status == 200) {
                 document.getElementById("about").innerHTML = this.responseText;
             }
-
-
         }
-        request.send()
+        request.send();
     }
 </script>
 <body>
-    <h1>Welcome to the Homepage</h1>
-    <button onclick="f1()">Load About</button>
+    <h1>AJAX Example</h1>
+
+    <p>We will load the content of the <a href="./about.html">About</a> page on <em>this</em> page using <strong>AJAX</strong>.</p>
     
-    <div id="about"></div>
+    <div>
+        <button onclick="f1()">Load About</button>
+    </div>
+    
+    <div id="about">
+        <p>The <em>'About'</em> page will be loaded here!</p>
+    </div>
 
     
 </body>
