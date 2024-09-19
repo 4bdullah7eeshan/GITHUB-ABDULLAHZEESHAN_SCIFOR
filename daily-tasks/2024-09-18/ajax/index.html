@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AJAX Example</title>
+</head>
+<script>
+    function f1() {
+        var request = new XMLHttpRequest();
+        request.open("GET", "about.txt");
+        request.onreadystatechange = function() {
+            if (this.readyState == 4 && this.status == 400) {
+                console.log(this.responseText);
+                document.getElementById("about").innerHTML = this.responseText;
+            }
+
+
+        }
+        request.send()
+    }
+</script>
+<body>
+    <h1>Welcome to the Homepage</h1>
+    <button onclick="f1()">Load About</button>
+    
+    <div id="about"></div>
+
+    
+</body>
+</html>
