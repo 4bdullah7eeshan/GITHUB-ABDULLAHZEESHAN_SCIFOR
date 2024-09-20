@@ -1,0 +1,18 @@
+body {
+    background: linear-gradient(to right, #f8f9fa, #e9ecef);
+}
+.card {
+    transition: transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    background-color: li;
+}
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+}
+.card img {
+    transition: transform 0.3s;
+}
+.card:hover img {
+    transform: scale(1.05);
+}
