@@ -2,7 +2,7 @@
 
 As part of our first Mini Project, we were tasked to create a website for an online store. 
 
-Say Hello to **[BakeNest](https://zeeshan777.github.io/GITHUB-ABDULLAHZEESHAN_SCIFOR/mini-project-01/bakenest/)**!
+Say Hello to **[BakeNest](https://zeeshan777.github.io/GITHUB-ABDULLAHZEESHAN_SCIFOR/mini-projects/mini-project-01/bakenest/)**!
 
 ## BakeNest
 
