@@ -8,7 +8,7 @@ Say Hello to **[BakeNest](https://zeeshan777.github.io/GITHUB-ABDULLAHZEESHAN_SC
 
 ### About
 
-[BakeNest](https://zeeshan777.github.io/GITHUB-ABDULLAHZEESHAN_SCIFOR/mini-project-01/bakenest/) is a mockup of an online cake store created majorly with [Bootstrap](https://getbootstrap.com/).
+[BakeNest](https://zeeshan777.github.io/GITHUB-ABDULLAHZEESHAN_SCIFOR/mini-projects/mini-project-01/bakenest/) is a mockup of an online cake store created majorly with [Bootstrap](https://getbootstrap.com/).
 
 ### Reflections
 
