@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class Component</title>
+    <script src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div id="root"></div>
+
+    <script type="text/babel">
+        class MyClassComponent extends React.Component {
+            constructor(props) {
+                super(props);
+                this.state = { colorIndex: 0 };
+                this.colors = ["#ffcccb", "#c1f0c1", "#c1d4f0", "#f0e1c1"];
+            }
+
+            changeColor = () => {
+                this.setState({ colorIndex: (this.state.colorIndex + 1) % this.colors.length });
+            }
+
+            render() {
+                const currentColor = this.colors[this.state.colorIndex];
+                return (
+                    <div className="container" style={{ backgroundColor: currentColor }}>
+                        <h1>Class Component</h1>
+                        <p>I was created with a <strong>class component</strong>.</p>
+                        <p>Click the button to change my background color.</p>
+                        <button onClick={this.changeColor}>Change Color</button>
+                    </div>
+                );
+            }
+        }
+
+        let rootElement = ReactDOM.createRoot(document.getElementById("root"));
+        rootElement.render(<MyClassComponent />);
+    </script>
+</body>
+</html>
