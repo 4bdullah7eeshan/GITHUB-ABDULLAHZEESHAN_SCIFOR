@@ -1,0 +1,50 @@
+body {
+    background-color: lightyellow;
+    color: black;
+}
+
+/* Fetch container */
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    background-color: lightyellow;
+}
+
+/* Button */
+button {
+    padding: 10px;
+    margin: 10px;
+    background-color: maroon;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Fetched Content */
+#data {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    outline: 1px solid black;
+    padding: 1rem;
+}
+
+/* Fix card size */
+#data div {
+    padding: 15px;
+    width: 100%;
+    text-align: left;
+}
+
+/* Fix image size */
+#data img {
+    max-width: 100%;
+    height: auto;
+}
+  

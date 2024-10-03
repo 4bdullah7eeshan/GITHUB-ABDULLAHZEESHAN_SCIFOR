@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>React Class Component with Button</title>
+    <!-- React and ReactDOM CDN -->
+    <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+    <!-- Babel CDN for JSX support -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+<body>
+    <div id="root"></div>
+
+    <script type="text/babel">
+        // Define the class component
+        class A extends React.Component {
+            constructor(props) {
+                super(props);
+                this.state = {
+                    firstName: this.props.firstName,
+                    lastName: this.props.lastName,
+                    bio: this.props.bio
+                };
+            }
+
+            // Method to update state on button click
+            update = () => {
+                this.setState({
+                    firstName: 'Abdullah',
+                    lastName: 'Zeeshan',
+                    bio: 'I am from Hyderabad'
+                });
+            }
+
+            render() {
+                return (
+                    <div>
+                        <h1>React State</h1>
+                        <p>First Name: {this.state.firstName}</p>
+                        <p>Last Name: {this.state.lastName}</p>
+                        <p>Bio: {this.state.bio}</p>
+                        <button onClick={this.update}>Update</button>
+                    </div>
+                );
+            }
+        }
+
+        // Rendering the component into the DOM
+        ReactDOM.render(
+            <A firstName="A" lastName="Z" bio="Know More" />,
+            document.getElementById('root')
+        );
+    </script>
+</body>
+</html>
