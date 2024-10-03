@@ -1,8 +1,16 @@
 # Mini Project 02
 
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=html,css,js" />
+  </a>
+</p>
+
 ## About
 
 A personal portfolio website: **[Live Site](https://zeeshan777.github.io/GITHUB-ABDULLAHZEESHAN_SCIFOR/mini-projects/mini-project-02/portfolio/)**.
+
+<img src="../../../utils/portfolio.png" alt="Portfolio Home Page" width="400">
 
 ## Learning Reflections
 
