@@ -724,6 +724,8 @@ textarea:hover {
     background-color: black;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
     align-items: center;
     padding: 3rem;
     color: white;
@@ -751,10 +753,10 @@ textarea:hover {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
-    position: absolute;
+    /* position: absolute; */
     bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%);
+    /* left: 50%; */
+    /* transform: translateX(-50%); */
 }
 
 #footer .box {
