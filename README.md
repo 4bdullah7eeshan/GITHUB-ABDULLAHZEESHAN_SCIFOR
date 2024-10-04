@@ -27,7 +27,14 @@ It acts as my working repo during the apprenticeship period.
 - [Live Site](https://zeeshan777.github.io/GITHUB-ABDULLAHZEESHAN_SCIFOR/mini-projects/mini-project-02/portfolio/)
 - [Repo](https://github.com/Zeeshan777/GITHUB-ABDULLAHZEESHAN_SCIFOR/tree/main/mini-projects/mini-project-02/portfolio)
 
-<img src="./utils/portfolio.png" alt="BakeNest Home Page" width="400">
+<img src="./utils/portfolio.png" alt="Portfolio Home Page" width="400">
+
+### CSS Selectors Presentation
+
+- [Live Site](https://zeeshan777.github.io/GITHUB-ABDULLAHZEESHAN_SCIFOR/presentation/css-selectors/)
+- [Repo](https://github.com/Zeeshan777/GITHUB-ABDULLAHZEESHAN_SCIFOR/tree/main/presentation/css-selectors)
+
+<img src="./utils/css-selectors-presentation.png" alt="CSS Selectors Presentation Opening Slide" width="400">
 
 ## Learning Outcomes
 
