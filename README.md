@@ -36,6 +36,14 @@ It acts as my working repo during the apprenticeship period.
 
 <img src="./utils/css-selectors-presentation.png" alt="CSS Selectors Presentation Opening Slide" width="400">
 
+### Calculator
+
+- [Live Site](file:///D:/Documents/GitHub/GITHUB-ABDULLAHZEESHAN_SCIFOR/daily-tasks/2024-09-17/calculator/index.html)
+- [Repo](https://github.com/Zeeshan777/GITHUB-ABDULLAHZEESHAN_SCIFOR/tree/main/daily-tasks/2024-09-17/calculator)
+
+<img src="./utils/calculator.png" alt="CSS Selectors Presentation Opening Slide" width="400">
+
+
 ## Learning Outcomes
 
 ### Technologies
