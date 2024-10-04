@@ -1,0 +1,3 @@
+[submodule "presentation/css-selectors/reveal.js"]
+	path = presentation/css-selectors/reveal.js
+	url = https://github.com/hakimel/reveal.js.git
