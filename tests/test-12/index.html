@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test 12</title>
+    <script src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <h1>Test 12</h1>
+    <div id="root"></div>
+    
+    <script type="text/babel">
+
+      class Component2 extends React.Component {
+        render() {
+          return (
+            <div class="recieved">
+              <h3>Received Data</h3>
+              <p>First Name: {this.props.name}</p>
+              <p>Last Name: {this.props.lname}</p>
+            </div>
+          );
+        }
+      }
+
+      class Component1 extends React.Component {
+        constructor(props) {
+          super(props);
+          this.state = {
+            name: '',
+            lname: '',
+            displayName: '',
+            displayLname: ''
+          };
+
+          this.handleNameChange = this.handleNameChange.bind(this);
+          this.handleLnameChange = this.handleLnameChange.bind(this);
+          this.handleSubmit = this.handleSubmit.bind(this);
+        }
+
+        handleNameChange(event) {
+          this.setState({ name: event.target.value });
+        }
+
+        handleLnameChange(event) {
+          this.setState({ lname: event.target.value });
+        }
+
+        handleSubmit() {
+          this.setState({
+            displayName: this.state.name,
+            displayLname: this.state.lname
+          });
+        }
+
+        render() {
+          return (
+            <div class="input">
+              <h2>Enter Your Name</h2>
+              <div>
+                <input 
+                    type="text" 
+                    placeholder="First Name" 
+                    value={this.state.name} 
+                    onChange={this.handleNameChange}
+                />
+              </div>
+              <div>
+                <input 
+                    type="text" 
+                    placeholder="Last Name" 
+                    value={this.state.lname} 
+                    onChange={this.handleLnameChange}
+                />
+              </div>
+              <div>
+                <button onClick={this.handleSubmit}>Submit</button>
+              </div>
+              <Component2 name={this.state.displayName} lname={this.state.displayLname} />
+            </div>
+          );
+        }
+      }
+
+      ReactDOM.createRoot(document.getElementById('root')).render(<Component1 />);
+
+    </script>
+</body>
+</html>

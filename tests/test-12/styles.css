@@ -1,0 +1,33 @@
+body,
+.receive,
+.input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #001f3f;
+    color: #FFDC00;
+    text-align: center;
+}
+
+* {
+    font-family: Tahoma, Arial, Verdana, sans-serif;
+}
+
+.receive,
+.input {
+    gap: 1rem;
+    outline: 1px solid #FFDC00;
+    padding: 1rem;
+    width: 25vw;
+}
+
+button {
+    background-color: #001f3f;
+    color: #FFDC00;
+    outline: 1px solid #FFDC00;
+    padding: 0.5rem;
+    cursor: pointer; 
+}
+
+
+
