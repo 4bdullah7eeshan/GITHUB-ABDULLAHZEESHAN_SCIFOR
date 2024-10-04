@@ -41,6 +41,8 @@ It acts as my working repo during the apprenticeship period.
 - [Live Site](https://zeeshan777.github.io/GITHUB-ABDULLAHZEESHAN_SCIFOR/daily-tasks/2024-09-19/giphy/)
 - [Repo](https://github.com/Zeeshan777/GITHUB-ABDULLAHZEESHAN_SCIFOR/tree/main/daily-tasks/2024-09-19/giphy)
 
+<img src="./utils/giphy.png" alt="GIPHY" width="400">
+
 ### Calculator
 
 - [Live Site](https://zeeshan777.github.io/GITHUB-ABDULLAHZEESHAN_SCIFOR/daily-tasks/2024-09-17/calculator/index.html)
