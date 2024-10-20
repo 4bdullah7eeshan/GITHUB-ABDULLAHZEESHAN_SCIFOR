@@ -8,9 +8,9 @@
 
 ## About
 
-This repo was created as part of the 3-month Frontend Development apprenticeship program at [Meta Scifor Technologies](https://metascifor.com/).
+This repo was created as part of the 3-month Frontend Development apprenticeship program at [Meta Scifor Technologies](https://metascifor.com/) from the duration of August 2024 until October 2024.
 
-It acts as my working repo during the apprenticeship period.
+It acted as my working repo during the apprenticeship period.
 
 ## Highlighted Works
 
@@ -50,13 +50,6 @@ It acts as my working repo during the apprenticeship period.
 
 <img src="./utils/weather-app.png" alt="GIPHY" width="400">
 
-### Random GIF Generator
-
-- [Live Site](https://zeeshan777.github.io/GITHUB-ABDULLAHZEESHAN_SCIFOR/daily-tasks/2024-09-19/giphy/)
-- [Repo](https://github.com/Zeeshan777/GITHUB-ABDULLAHZEESHAN_SCIFOR/tree/main/daily-tasks/2024-09-19/giphy)
-
-<img src="./utils/giphy.png" alt="GIPHY" width="400">
-
 ### Calculator
 
 - [Live Site](https://zeeshan777.github.io/GITHUB-ABDULLAHZEESHAN_SCIFOR/daily-tasks/2024-09-17/calculator/index.html)
@@ -64,6 +57,12 @@ It acts as my working repo during the apprenticeship period.
 
 <img src="./utils/calculator.png" alt="CSS Selectors Presentation Opening Slide" width="400">
 
+### Random GIF Generator
+
+- [Live Site](https://zeeshan777.github.io/GITHUB-ABDULLAHZEESHAN_SCIFOR/daily-tasks/2024-09-19/giphy/)
+- [Repo](https://github.com/Zeeshan777/GITHUB-ABDULLAHZEESHAN_SCIFOR/tree/main/daily-tasks/2024-09-19/giphy)
+
+<img src="./utils/giphy.png" alt="GIPHY" width="400">
 
 ## Learning Outcomes
 
@@ -77,10 +76,6 @@ The following technologies were taught during the apprenticeship:
 - Bootstrap
 - Foundations Framework
 - React
-
-### Topics
-
-> Add topics here
  
 ## Acknowledgments
 
