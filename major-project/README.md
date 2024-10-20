@@ -16,4 +16,4 @@ I picked a **[CV Builder Application](https://cv-application-plum-chi.vercel.app
 
 The CV application aims to provide users with a platform to create and manage their CVs easily. The application allows users to input personal details, education, experience, skills, and projects. It also offers PDF generation capabilities, ensuring that users can export their CVs for professional use.
 
-<img src="../utils/cv-application.png" alt="Portfolio Home Page" width="400">
+<img src="../utils/cv-application.png" alt="CV Application" width="400">
