@@ -12,7 +12,14 @@ This repo was created as part of the 3-month Frontend Development apprenticeship
 
 It acts as my working repo during the apprenticeship period.
 
-## Highlighted Work
+## Highlighted Works
+
+### Major Project: CV Application
+
+- [Live Site](https://cv-application-plum-chi.vercel.app/)
+- [Repo](https://github.com/Zeeshan777/GITHUB-ABDULLAHZEESHAN_SCIFOR/tree/main/major-project/)
+
+<img src="./utils/cv-application.png" alt="CV Application" width="400">
 
 ### Mini-Project 1: BakeNest
 
