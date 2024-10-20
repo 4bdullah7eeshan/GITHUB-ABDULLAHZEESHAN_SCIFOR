@@ -1,5 +1,8 @@
 # README
 
+> **Note:** This repository will be migrated to my **[main](https://github.com/4bdullah7eeshan)** account soon. Please follow updates for any changes to the repo's location.
+
+
 <p align="center">
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=html,css,js,bootstrap,react" />
@@ -85,4 +88,3 @@ The following technologies were taught during the apprenticeship:
 ## Contact
 
 For any questions or feedback, feel free to reach out to me via <aabdullahzeeshan77@gmail.com>.
-
