@@ -43,6 +43,13 @@ It acts as my working repo during the apprenticeship period.
 
 <img src="./utils/css-selectors-presentation.png" alt="CSS Selectors Presentation Opening Slide" width="400">
 
+### Weather App
+
+- [Live Site](https://zeeshan777.github.io/GITHUB-ABDULLAHZEESHAN_SCIFOR/tests/test-13/)
+- [Repo](https://github.com/Zeeshan777/GITHUB-ABDULLAHZEESHAN_SCIFOR/tree/main/tests/test-13)
+
+<img src="./utils/weather-app.png" alt="GIPHY" width="400">
+
 ### Random GIF Generator
 
 - [Live Site](https://zeeshan777.github.io/GITHUB-ABDULLAHZEESHAN_SCIFOR/daily-tasks/2024-09-19/giphy/)
