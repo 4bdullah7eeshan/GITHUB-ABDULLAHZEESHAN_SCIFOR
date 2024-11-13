@@ -1,14 +1,20 @@
 # Evaluation
 
+## Background
+
 13th of November 2024 marked the end of the training program. 
 
-An evaluation was conducted where candidates where asked to:
+An evaluation was conducted on this day where candidates where asked to:
 
 - Give a presentation of the major project.
 - Answer some mock questions.
-- Write a some code based on a task.
+- Write some code based on a task.
+
+## About
 
 This directory houses the code part.
+
+## My POV
 
 I was asked to:
 
