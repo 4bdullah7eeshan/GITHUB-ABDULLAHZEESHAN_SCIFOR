@@ -1,6 +1,6 @@
 # README
 
-> **Note:** This repository will be migrated to my **[main](https://github.com/4bdullah7eeshan)** account soon. Please follow updates for any changes to the repo's location.
+> **Note:** This repository was transferred from my previous account. Live site links will throw a 404 error. I do not plan to update them in the near future, but I might do so later.
 
 
 <p align="center">
